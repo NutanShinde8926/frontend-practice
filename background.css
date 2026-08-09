@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+}
+
+.outerdiv {
+    display: flex;
+}
+
+.div1, .div2 {
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.div1 dl dd {
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.div1 dl dt {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.div h3 {
+    font-size: 25px;
+}
+
+.div2 p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.div1 {
+    background-image: url('https://cdn.wallpapersafari.com/51/89/9TWxkQ.jpg');
+    background-size: cover;
+}
+.div2 {
+    background-image: linear-gradient(black, grey ,red);
+    color: white;
+}
+
+

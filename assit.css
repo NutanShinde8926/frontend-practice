@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 10px;
+}
+
+ 
+.div1 table{
+        border: 3px groove black;
+        border-collapse: collapse;
+    }
+
+    .div1 table th , .div1 table td{
+        border: 2px solid black;
+    } 
+
+
+.div2 fieldset {
+    border:3px groove black ;
+}
+div2 fieldset th , .div2 fieldset td{
+        border: 2px solid black;
+    } 
+
+
+    section {
+        display: flex;
+        justify-content: center; /* centers horizontally*/
+        align-items: center;  /* centers vertically*/
+        gap: 30px;
+        height: 90vh;
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGv7NUJJyMusqVkwliP7Cg5WukeoDOVAgFN1yL9nuySmyY_Mdc2wzSSa4&s=10");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .div1 table img {
+        width: 60px;
+        height: 60px;
+        border-radius: 50px;
+    }
+    .demo {
+        display: flex;
+        /*align-items: center;
+        gap: 10px;
+        border: none;*/
+    }
+
+    .div1, .div2 {
+        border: 3px solid black;
+        padding: 20px;
+    }
+    .div2 {
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiOWnOeQfkXSv1F-cbDydGvA_5kmHehpqGipEf1Hx1MO3rKG_I3C-QBGM&s=10");
+    }
+
+    .div1 {
+        background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20250228/pngtree-card-with-lilac-flowers-on-purple-background-image_17034285.jpg");
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: center;
+    }
+    .div2 fieldset legend {
+        font-weight: bolder;
+        color: darkblue;
+    }
+
+    .div1 tr {
+        font-weight: bold;
+    }
+
