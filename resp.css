@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 800px;
+    background-color: black;
+    color: white;
+    margin: auto;
+    display: flex;
+}
+
+@media(max-width:800px){
+    .main{
+        flex-direction: column;
+        background-color: red;
+        color: black;
+    }
+}
+
+@media(max-width:600px){
+    .main{
+        flex-direction: column;
+        background-color: greenyellow;
+        color: white;
+    }
+}
+
